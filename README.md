@@ -73,7 +73,7 @@ function initialize(){
 function cities(){
     //define an array of objects for cities and population
     var cityPop = [
-        { 
+        {
             "city": "Madison",
             "population": 233209
         },
@@ -174,7 +174,7 @@ Here, we will import the geojson data for use inside our webpage in the simplest
 - Replace the `.geojson` file extension with `.js` and then open it inside your code editor
 - On the first line, prepend the *{* with a variable declaration as follows:
 ```javascript
-var geojsonData = 
+var geojsonData =
 ```
 
 You have now turned your GeoJSON data into a JS object variable. This allows us to very simply import the data into a local web development environment.
@@ -225,7 +225,7 @@ Now, we will keep some of the structure we created in your `main.js`, but we can
 ```javascript
 	//create a basemap style. You can find other options at https://leaflet-extras.github.io/leaflet-providers/preview/
 	var CartoDB_Positron = L.tileLayer(
-		'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', 
+		'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
 		{
 			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 			subdomains: 'abcd'
@@ -244,13 +244,13 @@ Now, we will keep some of the structure we created in your `main.js`, but we can
 		,minZoom: 3
 		,layers: CartoDB_Positron
 	});
-		
+
 	// parse json object (var geojsonData) and turn into loadable layer
 	geojsonLayer = L.geoJSON(geojsonData);
-	
+
 	//add geojsonData to map
 	geojsonLayer.addTo(mymap);// add json element to map
-	
+
 	//declare basemap selector widget
 	var lcontrol = L.control.layers(baseLayers);
 	//add it to the map
@@ -268,6 +268,3 @@ For more, see this basic tutorial for [adding and styling data](https://leafletj
 # Deliverables
 
 Answer the 4 questions (8 points) and push your repo when it contains a functional web map (6 points) with one added modification in either map symbology or functionality (4 points). Your webmap must be deployed as a github page (2 points) so that it is easily viewable online.
-
-
-

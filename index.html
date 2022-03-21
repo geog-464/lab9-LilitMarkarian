@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>lab9</title>
-        
+        <title>Lab9</title>
+
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
-        
+    <!-- link to data -->
+    <script type="text/javascript" src="data/megacities.js"></script>
+
+    <!-- link to leaflet styles -->
+    <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css"/>
+    <!-- link to leaflet scripts -->
+    <script type="text/javascript" src="LIB/leaflet/leaflet.js"></script>
+
 		<!--you can also place internal styles here; you would place these within <style> tags-->
     </head>
 
     <body>
-        <!--put your initial page content here-->
-		
-        <!--you can also use this space for internal scripts; you would place these within <script> tags-->
+      <style>
+    	h1 {text-align: center;}
+      h2 {text-align: center;}
+      </style>
 
-        <!--put your external script links here-->
+      <!-- adding a Title -->
+      <h1 style="color:#F1A99B;font-size:25px; letter-spacing: 0.30em;
+      font-family:'Quicksand', sans-serif; font-weight: 450;"> Lab 9 - JavaScript </h1>
+
+    <div id="div1">
+  	<!-- This is inside basic html container -->
+  	<p> <b> Q2- </b> Because we put the CSS file before putting the JS. By doing this the website runs faster; whereas when JS is used before CSS it takes longer to load
+    <br>
+    </br>
+        <b> Q3-</b> When I removed the "window.onload = initialize();" from the script, it completely removed the table we created. I understood that <b>onload</b> is making it possible for HTML to load a JS file at the same time as the CSS and HTML.
+    <br>
+    </br>
+        <b> Q4- </b> cityPop's data type is an Array which contains integer and string objects. Arrays resemble to Python's List type where both of them store a number of elements in a sequence.
+    </p>
+  </div>
+
+  <h2 style="color:#F1A99B;font-size:22px; letter-spacing: 0.30em;
+
+  font-family:'Quicksand', sans-serif; font-weight: 450;"> Megacities </h2>
+      <div id="mapdiv">
+
+</div>
+
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

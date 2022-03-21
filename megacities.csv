@@ -1,20 +1,21 @@
-﻿Tokyo,37400068
-Delhi,28514000
-Shanghai,25582000
-São Paulo,21650000
-Mexico City,21581000
-Cairo,20076000
-Mumbai,19980000
-Beijing,19618000
-Dhaka,19578000
-Osaka,19281000
-New York,18819000
-Karachi,15400000
-Buenos Aires,14967000
-Chongqing,14838000
-Istanbul,14751000
-Kolkata,14681000
-Manila,13482000
-Lagos,13463000
-Rio de Janeiro,13293000
-Tianjin,13215000
+﻿city,latitude,longitude,pop. ,status
+"Tokyo, Japan",35.695126,139.75391,37400068,success
+"Delhi, India",24.734319,81.334404,28514000,success
+"Shanghai, China",31.246027,121.483385,25582000,success
+"São Paulo, Brazil",-1.32311,-47.504873,21650000,success
+"Mexico City, Mexico",19.371422,-99.150344,21581000,success
+"Cairo, Egypt",30.06263,31.24967,20076000,success
+"Mumbai, India",19.10109,72.875449,19980000,success
+"Beijing, China",39.937967,116.417592,19618000,success
+"Dhaka, Bangladesh",23.7104,90.40744,19578000,success
+"Osaka-shi, Japan",34.691802,135.50506,19281000,success
+"New York, NY, USA",40.68295,-73.9708,18819000,doubt
+"Karachi City, Pakistan",24.984695,67.238928,15400000,doubt
+"Buenos Aires, Argentina",-34.607357,-58.454595,14967000,success
+"Chongqing, China",29.565015,106.548238,14838000,success
+"Constantinople, Turkey",41.01384,28.94966,14751000,success
+"Sealdah, India",22.608067,88.419453,14681000,success
+"Manila, Philippines",14.6042,120.9822,13482000,success
+Lagos,6.45306,3.39583,13463000,success
+"Rio de Janeiro, Brazil",-22.935024,-43.518246,13293000,success
+"Tianjin, China",39.107355,117.185182,13215000,success
